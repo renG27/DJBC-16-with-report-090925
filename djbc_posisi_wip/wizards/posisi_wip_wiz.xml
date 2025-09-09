@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="posisi_wip_wizard_form" model="ir.ui.view">
+        <field name="name">Laporan Posisi WIP</field>
+        <field name="model">djbc.posisi.wip.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Laporan Posisi WIP">
+                <header>
+                    Laporan Posisi WIP
+                </header>
+                <group>
+                    <field name="date_start"/>
+                    <field name="date_end"/>
+                </group>
+                <footer>
+                    <button name='call_djbc_posisi_wip' string='Submit' type='object' class='btn-primary'/>
+                    <button name='generate_laporan_xls' string='Print XLS' type='object' class='btn-primary'/>
+                    <button string='Cancel' class='btn-secondary' special='cancel'/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record id="posisi_wip_wizard_action" model="ir.actions.act_window">
+        <field name="name">Laporan Posisi WIP</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">djbc.posisi.wip.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="view_id" ref='posisi_wip_wizard_form'/>
+        <field name="target">new</field>
+    </record>
+</odoo>

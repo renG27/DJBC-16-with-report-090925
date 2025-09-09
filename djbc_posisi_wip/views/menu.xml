@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<menuitem id="djbc_laporan_posisi_wip" name="Posisi WIP" parent="djbc.djbc_laporan" groups="djbc.group_djbc_user"
+			  action="posisi_wip_wizard_action" sequence="40"/>
+
+</odoo>

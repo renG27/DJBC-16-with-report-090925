@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_djbc_posisi_wip_manager,access.djbc.posisi.wip.manager,model_djbc_posisi_wip,djbc.group_djbc_manager,1,1,1,1
+access_djbc_posisi_wip_user,access.djbc.posisi.wip.user,model_djbc_posisi_wip,djbc.group_djbc_user,1,0,0,0
+access_djbc_posisi_wip_wizard_manager,access.djbc.posisi.wip.wizard.manager,model_djbc_posisi_wip_wizard,djbc.group_djbc_manager,1,1,1,1
+access_djbc_posisi_wip_wizard_user,access.djbc.posisi.wip.wizard.user,model_djbc_posisi_wip_wizard,djbc.group_djbc_user,1,1,1,0

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <report
+       id="posisi_wip_xlsx"
+       model="djbc.posisi.wip"
+       string="Laporan Posisi WIP (XLSX)"
+       report_type="xlsx"
+       name="djbc_posisi_wip.posisi_wip_xlsx"
+       file="Laporan Posisi WIP"
+    />
+</odoo>

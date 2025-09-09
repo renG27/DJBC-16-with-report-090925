@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<record id="posisi_wip_tree" model="ir.ui.view">
+		<field name="name">djbc.posisi.wip.tree</field>
+		<field name="model">djbc.posisi.wip</field>
+		<field name="arch" type="xml">
+			<tree string="Laporan Posisi WIP" create="false">
+				<field name="tgl_penerimaan"/>
+				<field name="kode_barang"/>
+				<field name="nama_barang"/>
+				<field name="jumlah"/>
+				<field name="satuan"/>
+				<field name="warehouse"/>
+			</tree>
+		</field>
+	</record>
+
+	<record id="posisi_wip_action" model="ir.actions.act_window">
+		<field name="name">DJBC Posisi WIP</field>
+		<field name="type">ir.actions.act_window</field>
+		<field name="res_model">djbc.posisi.wip</field>
+		<field name="view_mode">tree,form</field>
+		<field name="help" type="html">
+			<p class="o_view_nocontent_smiling_face">
+				It's Empty
+			</p>
+		</field>
+	</record>
+</odoo>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<report
+		id="pemusnahan_xlsx"
+		model="djbc.nofas_musnah"
+		string="Laporan Pemusnahan"
+		report_type="xlsx"
+		name="djbc_nofas_pemusnahan.pemusnahan_xlsx"
+		file="DJBC Pemusnahan"
+	/>
+</odoo>

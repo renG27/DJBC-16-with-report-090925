@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_nofas_musnah_tree" model="ir.ui.view">
+        <field name="name">djbc.nofas_musnah.tree</field>
+        <field name="model">djbc.nofas_musnah</field>
+        <field name="arch" type="xml">
+            <tree string="Laporan Pemusnahan" create="0" edit="0">
+                <field name="no_pemusnahan"/>
+                <field name="tgl_pemusnahan"/>
+                <field name="kode_barang"/>
+                <field name="nama_barang"/>
+                <field name="jumlah"/>
+                <field name="satuan"/>
+                <field name="location"/>
+                <field name="warehouse"/>
+            </tree>
+        </field>
+    </record>
+
+    </odoo>
