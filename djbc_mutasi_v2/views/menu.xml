@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<menuitem id="djbc_laporan_mutasi_v2" name="Mutasi *" parent="djbc.djbc_laporan"
+			  action="mutasiwizardv2_action" sequence="10" groups="djbc.group_djbc_user"/>
+	</odoo>
